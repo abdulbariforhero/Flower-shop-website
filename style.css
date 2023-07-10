@@ -1,0 +1,12 @@
+/* Common sheared style */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Header related style */
+.header {
+    display: flex;
+}
