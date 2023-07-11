@@ -25,11 +25,17 @@
 }
 
 .btn:hover {
-    /* background-color: #555555;
-  color: white;  */
     background-color: yellow;
     color: blue;
     border: 2px solid #f44336;
+}
+
+.house-style-image {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    position: relative;
+    margin-bottom: 20px;
 }
 
 
@@ -66,20 +72,66 @@
 
 
 /* Our Featured related content */
-.our-container-div-here{
+.our-container-div-here {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.our-featured-container{
+.our-featured-container {
+    display: flex;
+    flex-direction: column;
     margin-top: 175px;
+    justify-content: center;
+    align-items: center;
 }
 
-.oure-featured-descriptio{
+
+
+
+
+.oure-featured-description {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;    
-    font-size: 18px;   
+    text-align: center;
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 45px;
+    max-width: 594px;
+}
+
+
+/* Our featured image related style */
+.oure-featured-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-1 {
+    background: rgba(167, 33, 98, 0.15);
+    padding: 10px 78px 0px;
+    width: 330px;
+    height: 528px;
+}
+
+.img-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.img-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image-text-span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.house-type-image-title {
+    font-size: 24px;
 }
 
 
@@ -148,16 +200,16 @@
 
 
 /* Deal Submit related style */
-.deal-submit-container-container{
+.deal-submit-container-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.deal-submit-container{
-    display: flex;  
+.deal-submit-container {
+    display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     width: 1440px;
     height: 449px;
     border-radius: 8px;
@@ -167,7 +219,7 @@
     margin-bottom: 125px;
 }
 
-.deal-submit-subcontainer{
+.deal-submit-subcontainer {
     position: absolute;
     top: 50%;
     left: 50%;
