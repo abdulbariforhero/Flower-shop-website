@@ -39,10 +39,36 @@
 }
 
 
-/* Header related style */
-.header {
+
+
+/* nav bar related style */
+.nav-container {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.menus ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menus ul li {
+    font-size: larger;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Banne related style */
+.banner {
     background: rgba(229, 84, 115, 0.10);
-    background-size: 100vh;
     display: flex;
     align-items: center;
     gap: 97px;
@@ -289,4 +315,5 @@ body footer {
 
 .small {
     color: rgba(255, 255, 255, 0.40);
+    font-size: smaller;
 }
