@@ -161,6 +161,36 @@
 }
 
 
+/* extra support related style */
+.extra-suport-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.to-margin-suport{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 300px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    margin-top: 128px;
+    margin-bottom: 250px;    
+}
+
+.extra-suport-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* Hot deal section style */
 .hot-deal {
     display: flex;
