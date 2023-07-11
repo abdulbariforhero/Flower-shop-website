@@ -150,18 +150,18 @@
 }
 
 
-.deal-submti-section{
+.deal-submti-section {
     display: flex;
     gap: 40px;
 }
 
-.input-email {    
+.input-email {
     width: 700px;
     height: 64px;
     border-radius: 8px;
     border: none;
     background: #FFF;
-    font-size: 30px;    
+    font-size: 30px;
 }
 
 .input-email::placeholder {
