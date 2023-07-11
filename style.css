@@ -33,12 +33,13 @@
     align-items: center;
     gap: 97px;
     justify-content: center;
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 230px;
+    padding-right: 200px;
 }
 
-.header-title {
+.header-content {}
 
+.header-title {
     font-size: 80px;
 }
 
