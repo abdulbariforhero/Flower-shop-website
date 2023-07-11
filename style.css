@@ -33,6 +33,8 @@
     align-items: center;
     gap: 97px;
     justify-content: center;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .header-title {
