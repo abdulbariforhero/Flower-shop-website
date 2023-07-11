@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: loto;
+    
 }
 
 .title-font {
@@ -10,7 +11,6 @@
     color: #272727;
     font-size: 800;
     font-size: 40px;
-
 }
 
 .btn {
@@ -21,8 +21,16 @@
     border-radius: 8px;
     background: #E55473;
     color: white;
+    border: 0px;
 }
 
+.btn:hover{
+    /* background-color: #555555;
+  color: white;  */
+  background-color: yellow;
+  color: blue;
+  border: 2px solid #f44336;
+}
 
 
 /* Header related style */
@@ -69,11 +77,52 @@
     gap: 200px;
 }
 
-.hot-deal-title{
+.hot-deal-text {
+    text-align: center;
+}
+
+.hot-deal-title {
     color: #272727;
 }
 
-.hot-deal-description{
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    max-width: 500px;
     padding-top: 20px;
     padding-bottom: 30px;
+}
+
+
+
+
+/* Instagram section related style */
+.Insta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+
+.insta-title {
+    text-align: center;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    width: 580px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+.insta-imeges{
+    display: flex;
+    gap: 20px;
+    padding-left: 230px;
+    padding-right: 230px;   
 }
