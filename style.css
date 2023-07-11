@@ -37,8 +37,6 @@
     padding-right: 200px;
 }
 
-.header-content {}
-
 .header-title {
     font-size: 80px;
 }
@@ -56,4 +54,26 @@
     display: flex;
     max-width: 600px;
     padding-top: 50px;
+}
+
+/* Hot deal section style */
+.hot-deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-left: 360px;
+    padding-right: 440px;
+    gap: 200px;
+}
+
+.hot-deal-title{
+    color: #272727;
+}
+
+.hot-deal-description{
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
