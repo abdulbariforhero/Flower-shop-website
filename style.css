@@ -131,7 +131,7 @@
 /* Deal Submit related style */
 .deal-submit-container {
     display: flex;
-    margin: 128px 240px;
+    margin: 128px 240px ;
     align-items: center;
     justify-content: center;
     width: 1440px;
@@ -167,4 +167,12 @@
 .input-email::placeholder {
     color: rgba(39, 39, 39, 0.60);
     padding: 22px 500px 22px 22px;
+}
+
+
+/* Footer related style */
+
+body footer{
+    background-color: #111010;
+    color: rgba(255, 255, 255, 0.90);
 }
